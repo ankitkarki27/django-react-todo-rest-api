@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+  margin: 20px;
+}
+
+.todo-page input {
+  padding: 10px;
+  margin-right: 10px;
+  width: 300px;
+}
+
+.todo-page button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.todo-page ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.todo-page li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.todo-page li button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
