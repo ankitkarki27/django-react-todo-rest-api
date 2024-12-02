@@ -58,7 +58,7 @@ def taskUpdate(request, pk):
         serializer.save()
         return Response(serializer.data)
     
-    return Response(serializer.errors, status=400)
+    # return Response(serializer.errors, status=400)
 
 
 #delete
